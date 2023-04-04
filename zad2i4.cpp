@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     int liczba;
-    cout << "Podaj ilosc liczb do wczytania: "; // Wyświetlenie tekstu z prośbą o podanie ilości liczb.
+    cout << "Podaj ilosc liczb do wczytania: "; //pytanie o ilosc liczb do sprawdzenia
     cin >> liczba; // Pobranie od użytkownika ilości liczb.
 
     int najmniejsza = INT_MAX; //zmienna najmniejsza  = najwiekszej mozliwej liczbie
@@ -18,9 +18,9 @@ int main() {
 
         if (liczba2 < najmniejsza) {
             najmniejsza = liczba2; //przypisanie liczba do najmniejsza
-            ilosc=1; // jesli liczba jest wieksza niz najwieksza wystapienie = 1
+            ilosc=1; // jesli liczba jest wieksza niz najmniejsza wystapienie = 1
         } else if(liczba2==najmniejsza){
-            ilosc++; // jesli liczba jest rowna najwieksza wystapienie wiecej niz 1
+            ilosc++; // jesli liczba jest rowna najmniejsza wystapienie wiecej niz 1
         }
     }
 
