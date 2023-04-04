@@ -13,14 +13,14 @@ int main() {
     int ilosc = 0;
 
     for (int i = 0; i < liczba; i++) { // petla wykonujaca sie x razy
-        int liczba;
+        int liczba2;
         cout << "Podaj liczbe: "; // pytanie o podanie liczby
-        cin >> liczba; // Pobranie od użytkownika liczby.
+        cin >> liczba2; // Pobranie od użytkownika liczby.
 
-        if (liczba > najwieksza) {
-            najwieksza = liczba; // przypisanie liczba do najwiekszej
+        if (liczba2 > najwieksza) {
+            najwieksza = liczba2; // przypisanie liczba do najwiekszej
             ilosc=1; // jesli liczba jest wieksza niz najwieksza wystapienie = 1
-        } else if(liczba==najwieksza){ 
+        } else if(liczba2==najwieksza){ 
             ilosc++; // jesli liczba jest rowna najwieksza wystapienie wiecej niz 1
         }
     }
