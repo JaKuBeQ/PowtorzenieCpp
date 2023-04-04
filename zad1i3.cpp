@@ -11,9 +11,9 @@ int main() {
 
     int najwieksza = INT_MIN; // zmienna najwieksza  = najmniejszej mozliwej liczbie
     int ilosc = 0;
-    int liczba;
 
     for (int i = 0; i < liczba; i++) { // petla wykonujaca sie x razy
+        int liczba;
         cout << "Podaj liczbe: "; // pytanie o podanie liczby
         cin >> liczba; // Pobranie od użytkownika liczby.
 
@@ -25,9 +25,8 @@ int main() {
         }
     }
 
-    // Wyświetlenie największej liczby i jej ilości wystąpień.
-    cout << "Najwieksza liczba to: " << najwieksza << endl;
-    cout << "Wystapila " << ilosc << " razy" << endl;
+    // Wyświetlenie największej liczby i ile razy wystepuje.
+    cout << "Najwieksza liczba to: " << najwieksza << " Wystapila " << ilosc << " razy" << endl;
 
     return 0; 
 }
