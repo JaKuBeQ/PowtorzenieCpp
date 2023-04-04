@@ -1,18 +1,19 @@
 #include <iostream>
-#include <climits> // Biblioteka umożliwiająca korzystanie z stałej najwiekszej i najmniejszej INT_MIN.
+#include <climits> // Biblioteka umożliwiająca korzystanie ze stałej najwiekszej i najmniejszej INT_MIN.
 
 using namespace std;
 
 int main() {
-    int x;
-    cout << "Podaj ilosc liczb do wczytania: "; // Wyświetlenie tekstu z prośbą o podanie ilości liczb.
-    cin >> x; // Pobranie od użytkownika ilości liczb.
+    
+    int liczba;
+    cout << "ile liczb chcesz sprawdzic: "; // pytanie o ilosc liczb do sprawdzenia
+    cin >> liczba; // Pobranie od użytkownika ilości liczb.
 
     int najwieksza = INT_MIN; // zmienna najwieksza  = najmniejszej mozliwej liczbie
     int ilosc = 0;
+    int liczba;
 
-    for (int i = 0; i < x; i++) { // petla wykonujaca sie x razy
-        int liczba;
+    for (int i = 0; i < liczba; i++) { // petla wykonujaca sie x razy
         cout << "Podaj liczbe: "; // pytanie o podanie liczby
         cin >> liczba; // Pobranie od użytkownika liczby.
 
